@@ -1,0 +1,11 @@
+{
+  "port": 5001,
+  "db": {
+    "dburl": "mongodb://localhost:27017",
+    "dbName": "CRUD_DB"
+  },
+  "cors": {
+    "origin": "http://localhost:3000",
+    "method": "POST"
+  }
+}
