@@ -1,5 +1,7 @@
-import { Schema, model } from 'mongoose'
+import mongoose from 'mongoose'
 import validator from 'validator'
+
+const { Schema, model } = mongoose
 
 const studentSchema = new Schema({
    name: {

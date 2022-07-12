@@ -1,7 +1,8 @@
 import express from 'express';
+import studentController from '../controllers/studentController.js';
 const router = express.Router();
 
 router
-      .get('/', (_, res) => res.send('error gone'))
+      .get('/', studentController.createStudent)
 
 export default router
