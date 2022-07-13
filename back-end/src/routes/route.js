@@ -3,6 +3,6 @@ import studentController from '../controllers/studentController.js';
 const router = express.Router();
 
 router
-      .get('/', studentController.createStudent)
+      .post('/create', studentController.createStudent)
 
 export default router

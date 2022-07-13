@@ -5,6 +5,7 @@ const studentController = {
       studentModel.create(req.body)
                   .then(() => res.status(201).send('student created'))
                   .catch(err => { throw err });
-   }
+   },
+   
 };
 export default studentController;
