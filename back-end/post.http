@@ -1,0 +1,9 @@
+
+POST http://localhost:5001
+{
+  "name": "Tahmid",
+  "age": 9,
+  "email": "tahmid@gmail.com",
+  "phone": "01788916805",
+  "schoolName": "Masjid mission academy"
+}
